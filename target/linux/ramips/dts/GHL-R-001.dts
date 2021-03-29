@@ -49,9 +49,7 @@
 	m25p80@0 {
 		compatible = "jedec,spi-nor";
 		reg = <0>;
-		spi-max-frequency = <10000000>;
-		m25p,chunked-io = <32>;
-		m25p,fast-read;
+		spi-max-frequency = <25000000>;
 		apply-4byte-shutdown;
 
 		partitions {
